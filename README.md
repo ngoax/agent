@@ -59,12 +59,4 @@ We evaluate four different models on the [GSM8K dataset](https://github.com/open
 | Qwen-7B           | ✅         | 0.59        | 1.31s | 6.60s  |
 | Qwen-7B           | ❌        | 0.24        | 0.16s | 0.43s  |
 
-**Overall**: Tool calling improves correctness significantly, but at the cost of latency, which could mainly be due to the increased token count. 
-
-
-
-
-
-
-
-
+**Overall**: Tool calling improves correctness significantly, but at the cost of latency, which could mainly be due to the increased token count when invoking tools. While there is a significant speed tradeoff to be made in search of accuracy, future work attempting to embed symbolic math engines into the native architecture of LLMs could potentially mitigate this tradeoff. 
