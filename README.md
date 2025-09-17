@@ -1,5 +1,5 @@
 # Agentic Math Tool
-Pair project (w/ [Laura Bengs](https://github.com/LauraBengs)) as part of the Master's block course *Infrastructure for Advanced Analytics and Machine Learning* in **SS2025 @ LMU Munich**.  
+Pair project (w/ [Laura Bengs](https://github.com/LauraBengs)) as part of the Master's block course Infrastructure for Advanced Analytics and Machine Learning in SS2025 @ LMU Munich.  
 
 
 📄 Read the report [here](https://github.com/ngoax/agent/blob/1aec0f7ccb558ce6b5a01e09d6dd8a994fd8953a/report.pdf)
@@ -32,7 +32,7 @@ We evaluate four different models on the [GSM8K dataset](https://github.com/open
 - [LangSmith](https://www.langchain.com/langsmith) – debugging & evaluation platform  
 
 ### Tools  
-- **Document Extractor:** [Docling (IBM, 2024)](https://github.com/DS4SD/docling)  
+- **Document Extractor:** [Docling](https://github.com/DS4SD/docling)  
   - PDF, DOCX, image, and OCR support 
 - **Math Calculator:** [NumExpr](https://github.com/pydata/numexpr)  
   - Fast numerical expression evaluation, memory-efficient  
