@@ -9,13 +9,17 @@ Agents are an emergent field in AI, which is concerned with equipping large lang
 
 In this project, we build a **Math Agent** using [LangGraph](https://www.langchain.com/langgraph) that can solve mathematical problems with two tools:  
 - a **document extractor** ([Docling](https://github.com/DS4SD/docling))  
-- a **symbolic calculator** ([NumExpr](https://github.com/pydata/numexpr))  
+- a **symbolic calculator** ([NumExpr](https://github.com/pydata/numexpr))
+
+We hypothesize that augmenting LLMs with a symbolic calculator could improve accuracy for mathematical tasks, mitigating the inherent tendency of LLMs to hallucinate due to its autoregressive nature.
 
 We evaluate four different models on the [GSM8K dataset](https://github.com/openai/grade-school-math):  
-- **Qwen 2.5-7B**  
-- **Qwen 2.5-14B**  
-- **Claude 3.5 Sonnet**  
-- **Claude 3.7 Sonnet**  
+- **Open-weight models (via [Ollama](https://ollama.com/)):**  
+  - Qwen 2.5-7B  
+  - Qwen 2.5-14B  
+- **Closed-source API models:**  
+  - Claude 3.5 Sonnet (Anthropic)  
+  - Claude 3.7 Sonnet (Anthropic)   
 
 ### Key Findings  
 1. Tool calling **improves correctness** across all models.  
@@ -36,15 +40,6 @@ We evaluate four different models on the [GSM8K dataset](https://github.com/open
   - PDF, DOCX, image, and OCR support 
 - **Math Calculator:** [NumExpr](https://github.com/pydata/numexpr)  
   - Fast numerical expression evaluation, memory-efficient  
-
-### Models Tested  
-- **Open-weight models (via [Ollama](https://ollama.com/)):**  
-  - Qwen 2.5-7B  
-  - Qwen 2.5-14B  
-- **Closed-source API models:**  
-  - Claude 3.5 Sonnet (Anthropic)  
-  - Claude 3.7 Sonnet (Anthropic)  
-
 
 
 ## Evaluation  
