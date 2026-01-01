@@ -2,8 +2,6 @@
 Pair project (w/ [Laura Bengs](https://github.com/LauraBengs)) as part of the Master's block course Infrastructure for Advanced Analytics and Machine Learning in SS2025 @ LMU Munich.  
 
 
-📄 Read the report [here](https://github.com/ngoax/agent/blob/1aec0f7ccb558ce6b5a01e09d6dd8a994fd8953a/report.pdf)
-
 ## Abstract  
 Agents are an emergent field in AI, which is concerned with equipping large language models (LLMs) with further capabilities such as tool calling, thereby eliminating the need for users to orchestrate individual steps and extending the capabilities of LLMs beyond conventional chatbots.
 
